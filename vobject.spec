@@ -11,6 +11,7 @@ Group:		Development/Python
 URL:		http://vobject.skyhouseconsulting.com
 Source0:	http://vobject.skyhouseconsulting.com/%{name}-%{version}.tar.gz
 BuildRequires:	python-devel
+BuildRequires:	python-setuptools
 BuildArch:	noarch
 
 %description
