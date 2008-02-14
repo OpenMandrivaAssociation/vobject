@@ -8,6 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	ASL 1.1
 Group:		Development/Python
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		http://vobject.skyhouseconsulting.com
 Source0:	http://vobject.skyhouseconsulting.com/%{name}-%{version}.tar.gz
 BuildRequires:	python-devel
