@@ -1,14 +1,10 @@
-%define name	vobject
-%define version	0.4.8
-%define release	%mkrel 1
-
 Summary:	Python module for parsing and generating vCard files
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		vobject
+Version:	0.6.0
+Release:	%mkrel 1
 License:	ASL 1.1
 Group:		Development/Python
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		http://vobject.skyhouseconsulting.com
 Source0:	http://vobject.skyhouseconsulting.com/%{name}-%{version}.tar.gz
 BuildRequires:	python-devel
@@ -45,7 +41,7 @@ components are understood in a sophisticated way.
 
 %install
 rm -rf %{buildroot}
-python setup.py install --root=%{buildroot}
+python setup.py install --root=%{buildroot} --compile --optimize=2
 
 %post
 
