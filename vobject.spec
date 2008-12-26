@@ -1,7 +1,7 @@
 Summary:	Python module for parsing and generating vCard files
 Name:		vobject
-Version:	0.6.0
-Release:	%mkrel 2
+Version:	0.7.1
+Release:	%mkrel 1
 License:	ASL 1.1
 Group:		Development/Python
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -55,5 +55,6 @@ rm -rf %{buildroot}
 %doc LICENSE.txt README.txt ACKNOWLEDGEMENTS.txt
 %{py_puresitedir}/%{name}
 %{_bindir}/ics_diff
+%{_bindir}/change_tz
 %{py_puresitedir}/%{name}-%{version}-py%{pyver}.egg-info
 
