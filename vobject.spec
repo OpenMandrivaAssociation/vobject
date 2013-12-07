@@ -2,7 +2,7 @@ Summary:	Python module for parsing and generating vCard files
 Name:		vobject
 Version:	0.7.1
 %define subrel 1
-Release:	6
+Release:	7
 License:	ASL 1.1
 Group:		Development/Python
 URL:		http://vobject.skyhouseconsulting.com
