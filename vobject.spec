@@ -5,7 +5,7 @@ Version:	0.7.1
 Release:	11
 License:	ASL 1.1
 Group:		Development/Python
-URL:		http://vobject.skyhouseconsulting.com
+URL:		https://vobject.skyhouseconsulting.com
 Source0:	http://vobject.skyhouseconsulting.com/%{name}-%{version}.tar.gz
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
